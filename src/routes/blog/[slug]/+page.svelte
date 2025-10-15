@@ -17,17 +17,17 @@
 </svelte:head>
 
 <article class="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
-    <a href="/blog" class="text-black dark:text-white hover:underline mb-6 inline-block">
+    <a href="/blog" class="text-black hover:underline mb-6 inline-block">
 		← Back to Blog
 	</a>
 	
-    <h1 class="text-4xl md:text-5xl font-bold mb-4 text-black dark:text-white">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4 text-black">
 		{data.post.title}
 	</h1>
 	
-	<p class="text-gray-500 dark:text-gray-400 mb-8">{formatDate(data.post.date)}</p>
+	<p class="text-gray-500 mb-8">{formatDate(data.post.date)}</p>
 	
-	<div class="prose dark:prose-invert max-w-none">
+	<div class="prose max-w-none">
 		{@html data.post.content}
 	</div>
 </article>

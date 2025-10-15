@@ -5,9 +5,12 @@
 
 <div class="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
         <!-- Header with Profile -->
-        <header class="flex items-start justify-between mb-16">
-                <div class="flex-1">
-                        <h1 class="text-4xl font-bold mb-2 text-black">Dion Pamungkas</h1>
+        <header class="flex items-start justify-between gap-6 mb-16 md:gap-10">
+                <div class="flex-1 pr-4">
+                        <h1 class="text-4xl font-bold mb-2 text-black leading-tight">
+                                <span class="block md:inline">Dion</span>
+                                <span class="block md:inline md:ml-2">Pamungkas</span>
+                        </h1>
                         <p class="text-gray-600 mb-6">Software Engineer</p>
                         
                         <!-- Social Links -->
@@ -36,7 +39,7 @@
                  <img 
                         src="/image/dion-1.jpg" 
                         alt="Dion Pamungkas" 
-                        class="w-24 h-24 rounded-2xl object-cover shadow-lg"
+                        class="w-24 h-24 rounded-2xl object-cover shadow-lg shrink-0"
                 />
         </header>
 
