@@ -1,3 +1,48 @@
+<script lang="ts">
+        const projects = [
+        {
+        icon: "💼",
+        title: "Portfolio & Blog",
+        badge: "New",
+        description:
+        "A modern portfolio and blog built with Svelte and Bun, focused on clean design and responsive layouts."
+        },
+        {
+        icon: "🚀",
+        title: "Web App",
+        badge: "Active",
+        description:
+        "Building fast and scalable web applications using modern JavaScript frameworks."
+        },
+        {
+        icon: "📱",
+        title: "Mobile First",
+        description:
+        "Responsive designs that work beautifully on all devices, from mobile to desktop."
+        },
+        {
+        icon: "🎨",
+        title: "UI/UX Design",
+        description:
+        "Creating beautiful user interfaces with attention to detail and user experience."
+        },
+        {
+        icon: "⚡",
+        title: "Performance",
+        description:
+        "Optimizing web applications for speed and efficiency using latest technologies."
+        },
+        {
+        icon: "🔧",
+        title: "Open Source",
+        description:
+        "Contributing to open source projects and building tools for the developer community."
+        }
+        ];
+
+
+</script>
+
 <svelte:head>
         <title>Dion Pamungkas | Software Engineer</title>
         <meta name="description" content="Personal portfolio and blog of Pamungkas - Developer, writer, and creator" />
@@ -67,89 +112,24 @@
                 </div>
 
                 <div class="grid md:grid-cols-2 gap-6">
-                        <!-- Project Card 1 -->
+                         {#each projects as { icon, title, badge, description }}
                         <div class="border border-gray-200 rounded-lg p-6">
-                                <div class="flex items-start gap-3 mb-3">
-                                        <span class="text-2xl">💼</span>
-                                        <div class="flex-1">
-                                                <h3 class="font-semibold flex items-center gap-2">
-                                                        Portfolio & Blog
-                                                <span class="text-xs px-2 py-0.5 bg-black text-white rounded">New</span>
-                                                </h3>
-                                        </div>
-                                </div>
-                                <p class="text-gray-600 text-sm">
-                                        A modern portfolio and blog built with Svelte and Bun, focused on clean design and responsive layouts
-                                </p>
+                        <div class="flex items-start gap-3 mb-3">
+                        <span class="text-2xl">{icon}</span>
+                        <div class="flex-1">
+                                <h3 class="font-semibold flex items-center gap-2">
+                                {title}
+                                {#if badge}
+                                <span class="text-xs px-2 py-0.5 bg-black text-white rounded">{badge}</span>
+                                {/if}
+                                </h3>
                         </div>
+                        </div>
+                        <p class="text-gray-600 text-sm">{description}</p>
+                        </div>
+                        {/each}
 
-                        <!-- Project Card 2 -->
-                        <div class="border border-gray-200 rounded-lg p-6">
-                                <div class="flex items-start gap-3 mb-3">
-                                        <span class="text-2xl">🚀</span>
-                                        <div class="flex-1">
-                                                <h3 class="font-semibold flex items-center gap-2">
-                                                        Web App
-                                                <span class="text-xs px-2 py-0.5 bg-black text-white rounded">Active</span>
-                                                </h3>
-                                        </div>
-                                </div>
-                                <p class="text-gray-600 text-sm">
-                                        Building fast and scalable web applications using modern JavaScript frameworks
-                                </p>
-                        </div>
-
-                        <!-- Project Card 3 -->
-                        <div class="border border-gray-200 rounded-lg p-6">
-                                <div class="flex items-start gap-3 mb-3">
-                                        <span class="text-2xl">📱</span>
-                                        <div class="flex-1">
-                                                <h3 class="font-semibold">Mobile First</h3>
-                                        </div>
-                                </div>
-                                <p class="text-gray-600 text-sm">
-                                        Responsive designs that work beautifully on all devices, from mobile to desktop
-                                </p>
-                        </div>
-
-                        <!-- Project Card 4 -->
-                        <div class="border border-gray-200 rounded-lg p-6">
-                                <div class="flex items-start gap-3 mb-3">
-                                        <span class="text-2xl">🎨</span>
-                                        <div class="flex-1">
-                                                <h3 class="font-semibold">UI/UX Design</h3>
-                                        </div>
-                                </div>
-                                <p class="text-gray-600 text-sm">
-                                        Creating beautiful user interfaces with attention to detail and user experience
-                                </p>
-                        </div>
-
-                        <!-- Project Card 5 -->
-                        <div class="border border-gray-200 rounded-lg p-6">
-                                <div class="flex items-start gap-3 mb-3">
-                                        <span class="text-2xl">⚡</span>
-                                        <div class="flex-1">
-                                                <h3 class="font-semibold">Performance</h3>
-                                        </div>
-                                </div>
-                                <p class="text-gray-600 text-sm">
-                                        Optimizing web applications for speed and efficiency using latest technologies
-                                </p>
-                        </div>
-
-                        <!-- Project Card 6 -->
-                        <div class="border border-gray-200 rounded-lg p-6">
-                                <div class="flex items-start gap-3 mb-3">
-                                        <span class="text-2xl">🔧</span>
-                                        <div class="flex-1">
-                                                <h3 class="font-semibold">Open Source</h3>
-                                        </div>
-                                </div>
-                                <p class="text-gray-600 text-sm">
-                                        Contributing to open source projects and building tools for the developer community
-                                </p>
-                        </div>
+                       
                 </div>
         </section>
 </div>

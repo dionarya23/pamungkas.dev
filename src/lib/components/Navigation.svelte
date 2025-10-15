@@ -14,8 +14,11 @@
 <nav class="sticky top-0 z-40 border-b border-gray-200 bg-white/90 backdrop-blur">
 	<div class="max-w-6xl mx-auto px-4">
 		<div class="flex justify-between items-center h-16">
-            <a href="/" class="text-xl font-bold text-black">
-				Pamungkas.dev
+            <a href="/" class="text-xl font-bold text-black flex items-center gap-1">
+				<span>pamungkas</span>
+				<span class="px-2 py-1 text-sm font-semibold leading-none bg-black text-white rounded-md">
+					.dev
+				</span>
 			</a>
 
 			<!-- Desktop Navigation -->
