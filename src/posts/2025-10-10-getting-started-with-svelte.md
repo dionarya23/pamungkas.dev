@@ -4,7 +4,7 @@ date: 2025-10-10
 excerpt: An introduction to Svelte and why it's a great choice for modern web development.
 ---
 
-# Getting Started with Svelte
+## Getting Started with Svelte
 
 Svelte is a radical new approach to building user interfaces. Unlike traditional frameworks like React and Vue, Svelte shifts much of the work into a compile step that happens when you build your app.
 

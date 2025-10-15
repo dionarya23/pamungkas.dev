@@ -10,7 +10,7 @@
     <h1 class="text-4xl md:text-5xl font-bold mb-6 text-black">What I'm Doing Now</h1>
 	
 	<div class="space-y-6">
-	<section class="bg-gray-100 rounded-lg p-6">
+	<section class="rounded-lg p-6">
 			<h2 class="text-2xl font-semibold mb-4">Current Projects</h2>
 		<ul class="list-disc list-inside space-y-2 text-gray-700">
 				<li>Building personal portfolio and blog with Svelte and Bun</li>
@@ -19,7 +19,7 @@
 			</ul>
 		</section>
 
-	<section class="bg-gray-100 rounded-lg p-6">
+	<section class="rounded-lg p-6">
 			<h2 class="text-2xl font-semibold mb-4">Learning</h2>
 		<ul class="list-disc list-inside space-y-2 text-gray-700">
 				<li>Advanced TypeScript patterns</li>
@@ -28,7 +28,7 @@
 			</ul>
 		</section>
 
-	<section class="bg-gray-100 rounded-lg p-6">
+	<section class="rounded-lg p-6">
 			<h2 class="text-2xl font-semibold mb-4">Reading</h2>
 		<p class="text-gray-700 leading-relaxed">
 				Currently reading books on software engineering best practices and exploring 

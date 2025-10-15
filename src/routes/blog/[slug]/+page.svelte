@@ -5,7 +5,7 @@
 		const date = new Date(input);
 		return isNaN(date.getTime())
 			? input
-			: date.toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
+			: date.toLocaleDateString('en-US', { day: '2-digit', month: 'long', year: 'numeric' });
 	};
 
 	let { data } = $props<{ data: PageData }>();
@@ -16,7 +16,7 @@
 	<meta name="description" content={data.post.excerpt} />
 </svelte:head>
 
-<article class="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
+<article class="mx-auto w-full max-w-2xl  bg-white print:space-y-6">
     <a href="/blog" class="text-black hover:underline mb-6 inline-block">
 		← Back to Blog
 	</a>
@@ -25,7 +25,9 @@
 		{data.post.title}
 	</h1>
 	
-	<p class="text-gray-500 mb-8">{formatDate(data.post.date)}</p>
+	<p class="text-gray-500 mb-8">
+		Written on {formatDate(data.post.date)} • {data.post.readingMinutes} min read
+	</p>
 	
 	<div class="prose max-w-none">
 		{@html data.post.content}
