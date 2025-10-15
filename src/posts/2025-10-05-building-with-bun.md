@@ -2,6 +2,8 @@
 title: Building Fast Apps with Bun
 date: 2025-10-05
 excerpt: Exploring Bun as a fast JavaScript runtime and its benefits for web development.
+image: https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=1200&q=80
+imageAlt: Illuminated server racks in a data center
 ---
 
 Bun is an incredibly fast JavaScript runtime designed to replace Node.js. It's compatible with Node.js APIs while offering significantly better performance.

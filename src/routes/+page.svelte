@@ -68,7 +68,7 @@
 
                 <div class="grid md:grid-cols-2 gap-6">
                         <!-- Project Card 1 -->
-                        <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
+                        <div class="border border-gray-200 rounded-lg p-6">
                                 <div class="flex items-start gap-3 mb-3">
                                         <span class="text-2xl">💼</span>
                                         <div class="flex-1">
@@ -84,7 +84,7 @@
                         </div>
 
                         <!-- Project Card 2 -->
-                        <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
+                        <div class="border border-gray-200 rounded-lg p-6">
                                 <div class="flex items-start gap-3 mb-3">
                                         <span class="text-2xl">🚀</span>
                                         <div class="flex-1">
@@ -100,7 +100,7 @@
                         </div>
 
                         <!-- Project Card 3 -->
-                        <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
+                        <div class="border border-gray-200 rounded-lg p-6">
                                 <div class="flex items-start gap-3 mb-3">
                                         <span class="text-2xl">📱</span>
                                         <div class="flex-1">
@@ -113,7 +113,7 @@
                         </div>
 
                         <!-- Project Card 4 -->
-                        <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
+                        <div class="border border-gray-200 rounded-lg p-6">
                                 <div class="flex items-start gap-3 mb-3">
                                         <span class="text-2xl">🎨</span>
                                         <div class="flex-1">
@@ -126,7 +126,7 @@
                         </div>
 
                         <!-- Project Card 5 -->
-                        <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
+                        <div class="border border-gray-200 rounded-lg p-6">
                                 <div class="flex items-start gap-3 mb-3">
                                         <span class="text-2xl">⚡</span>
                                         <div class="flex-1">
@@ -139,7 +139,7 @@
                         </div>
 
                         <!-- Project Card 6 -->
-                        <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
+                        <div class="border border-gray-200 rounded-lg p-6">
                                 <div class="flex items-start gap-3 mb-3">
                                         <span class="text-2xl">🔧</span>
                                         <div class="flex-1">

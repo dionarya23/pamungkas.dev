@@ -78,11 +78,13 @@ export type PostSummary = {
   title: string;
   date: string;
   excerpt: string;
+  image?: string;
+  imageAlt?: string;
+  readingMinutes: number;
 };
 
 export type PostDetail = PostSummary & {
   content: string;
-  readingMinutes: number;
 };
 
 export function getAllPosts(): PostSummary[] {
@@ -91,6 +93,8 @@ export function getAllPosts(): PostSummary[] {
     title: post.metadata.title ?? post.slug,
     date: post.metadata.date ?? "",
     excerpt: post.metadata.excerpt ?? "",
+    image: post.metadata.image,
+    imageAlt: post.metadata.imageAlt,
     readingMinutes: calculateReadingMinutes(post.markdown),
   }));
 }
@@ -105,6 +109,8 @@ export function getPostBySlug(slug: string): PostDetail | null {
     title: post.metadata.title ?? post.slug,
     date: post.metadata.date ?? "",
     excerpt: post.metadata.excerpt ?? "",
+    image: post.metadata.image,
+    imageAlt: post.metadata.imageAlt,
     content: post.html,
     readingMinutes: calculateReadingMinutes(post.markdown),
   };

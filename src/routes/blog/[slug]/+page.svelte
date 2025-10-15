@@ -16,11 +16,17 @@
 	<meta name="description" content={data.post.excerpt} />
 </svelte:head>
 
-<article class="mx-auto w-full max-w-2xl  bg-white print:space-y-6">
-    <a href="/blog" class="text-black hover:underline mb-6 inline-block">
-		← Back to Blog
-	</a>
+<article class="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
 	
+	{#if data.post.image}
+		<img
+			src={data.post.image}
+			alt={data.post.imageAlt ?? data.post.title}
+			class="object-cover bg-center h-64 w-full rounded-lg"
+			loading="lazy"
+		/>
+	{/if}
+
     <h1 class="text-4xl md:text-5xl font-bold mb-4 text-black">
 		{data.post.title}
 	</h1>

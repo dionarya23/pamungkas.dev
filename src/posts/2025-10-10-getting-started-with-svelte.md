@@ -2,6 +2,8 @@
 title: Getting Started with Svelte
 date: 2025-10-10
 excerpt: An introduction to Svelte and why it's a great choice for modern web development.
+image: https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80
+imageAlt: Laptop displaying code editor with a Svelte project
 ---
 
 ## Getting Started with Svelte
