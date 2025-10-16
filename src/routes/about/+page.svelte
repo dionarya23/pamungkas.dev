@@ -37,15 +37,17 @@
   <div class="mb-6">
     <h3 class="text-lg font-medium mb-2 text-gray-800">Frameworks & Technologies</h3>
     <div class="flex flex-wrap gap-2">
+      <span class="px-4 py-2 bg-black text-white rounded-full text-sm">Kubernetes</span>
+      <span class="px-4 py-2 bg-black text-white rounded-full text-sm">Tailwind CSS</span>
+      <span class="px-4 py-2 bg-black text-white rounded-full text-sm">PostgreSQL</span>
       <span class="px-4 py-2 bg-black text-white rounded-full text-sm">Svelte</span>
       <span class="px-4 py-2 bg-black text-white rounded-full text-sm">Vue.js</span>
       <span class="px-4 py-2 bg-black text-white rounded-full text-sm">Node.js</span>
-      <span class="px-4 py-2 bg-black text-white rounded-full text-sm">Tailwind CSS</span>
       <span class="px-4 py-2 bg-black text-white rounded-full text-sm">MySQL</span>
-      <span class="px-4 py-2 bg-black text-white rounded-full text-sm">PostgreSQL</span>
       <span class="px-4 py-2 bg-black text-white rounded-full text-sm">Redis</span>
       <span class="px-4 py-2 bg-black text-white rounded-full text-sm">Docker</span>
-      <span class="px-4 py-2 bg-black text-white rounded-full text-sm">Kubernetes</span>
+      <span class="px-4 py-2 bg-black text-white rounded-full text-sm">Git</span>
+
     </div>
   </div>
 
