@@ -55,17 +55,20 @@
 
 
 	<section class="rounded-lg p-1">
-		<h2 class="text-2xl font-semibold mb-4">Experience</h2>
-		<p class="text-gray-700 leading-relaxed">
-		I've worked at <strong>Chameleon Tech</strong> (software house), <strong>Lifepack.id</strong> (e-health),
-		and <strong>Bahaso.com</strong> (edutech).  
-		I also collaborated with <strong>President University</strong> on several internal digital projects.
-		</p>
-		<p class="text-gray-700 leading-relaxed">
-			Those experiences helped me understand how to balance speed, quality, and maintainability
-			when building real-world applications.
-		</p>
-	</section>
+  <h2 class="text-2xl font-semibold mb-4">Experience</h2>
+  <p class="text-gray-700 leading-relaxed">
+    I’ve worked with 
+    <a href="https://chameleon.co.id" target="_blank" class="font-semibold text-gray-800 hover:underline transition">Chameleon Tech</a>, 
+    <a href="https://lifepack.id" target="_blank" class="font-semibold text-gray-800 hover:underline transition">Lifepack.id</a>, 
+    and 
+    <a href="https://bahaso.com" target="_blank" class="font-semibold text-gray-800 hover:underline transition">Bahaso.com</a> — making backend services, APIs, and features people use every day.
+  </p>
+  <p class="text-gray-700 leading-relaxed">
+    Now I’m <strong>collaborating</strong> with 
+    <a href="https://president.ac.id" target="_blank" class="font-semibold text-gray-800 hover:underline transition">President University</a> 
+    on internal tools — building, improving, and maintaining the systems behind the scenes.
+  </p>
+</section>
 	</div>
 
 </div>
