@@ -92,11 +92,13 @@
         <section class="mb-16">
                 <h2 class="text-2xl font-bold mb-4">About</h2>
                 <div class="space-y-4 text-gray-600 leading-relaxed">
-                        <p>
-                                I'm a passionate developer building elegant solutions for the web. I write about development, design, and everything in between.
+                <p>
+                        I'm Dion Pamungkas — a full-stack developer who builds software that’s simple, fast, and intentional.
+                        I care about good design, clean code, and products that actually help people.
                         </p>
                         <p>
-                                Hugely inspired by modern web technologies and clean design principles. I love creating meaningful digital experiences that make a difference.
+                        I enjoy working across the stack, from backend logic to polished user interfaces.
+                        Still learning, still building.
                         </p>
                 </div>
         </section>
